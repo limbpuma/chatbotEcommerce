@@ -1,0 +1,30 @@
+{
+    "name": "base-bailey-mongo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "pre-copy": "cd .. && npm run  copy.lib base-baileys-mongo",
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "dependencies": {
+        "@bot-whatsapp/bot": "latest",
+        "@bot-whatsapp/cli": "latest",
+        "@bot-whatsapp/database": "latest",
+        "@bot-whatsapp/portal": "latest",
+        "@bot-whatsapp/provider": "latest",
+        "@whiskeysockets/baileys": "^6.4.0",
+        "axios": "^1.6.1",
+        "dotenv": "^16.3.1",
+        "mime-types": "2.1.35",
+        "mongodb": "^4.12.1",
+        "wa-sticker-formatter": "4.3.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.52.0",
+        "eslint-plugin-bot-whatsapp": "latest"
+    },
+    "author": "",
+    "license": "ISC"
+}
